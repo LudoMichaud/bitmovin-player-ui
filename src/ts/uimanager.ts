@@ -7,6 +7,7 @@ import {NoArgs, EventDispatcher, CancelEventArgs} from './eventdispatcher';
 import {UIUtils} from './uiutils';
 import {ArrayUtils} from './arrayutils';
 import {BrowserUtils} from './browserutils';
+import {IntroSkipButton, IntroSkipButtonConfig} from './components/introskipbutton';
 import { TimelineMarker, UIConfig } from './uiconfig';
 import { PlayerAPI, PlayerEventCallback, PlayerEventBase, PlayerEvent, AdEvent, LinearAd } from 'bitmovin-player';
 import { VolumeController } from './volumecontroller';
